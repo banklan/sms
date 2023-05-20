@@ -1,0 +1,59 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Lato:wght@300;400&family=Nunito+Sans:wght@300&family=Raleway:wght@300;400&family=Tenor+Sans&family=Work+Sans:wght@300;400&display=swap');
+
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+a{
+    text-decoration: none !important;
+}
+
+.banner{
+    margin-top: -11rem;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to bottom, rgba(#180b85, 0.89), rgba(#0a043d, 0.75), rgba(#070233, 0.62)), url(../assets/background/banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_header{
+    font-weight: 400 !important;
+    font-size: 2rem !important;
+    margin-top: 2rem;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    line-height: 28px;
+    color: #162a4c;
+    text-align: center !important;
+}
+
+.card_cont{
+    min-height: 20px;
+    border: 1px solid #dfdfdf;
+    border-radius: 6px;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    // margin-left: 1rem;
+    // margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: all .4s ease;
+
+    &:hover{
+        box-shadow: 0 5px 12px rgba(0,0,0,.75);
+        cursor: pointer;
+    }
+}
